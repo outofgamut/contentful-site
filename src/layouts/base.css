@@ -40,6 +40,13 @@ a {
 /**
  * article grid
  */
+ .client-list {
+  display: flex;
+}
+
+/**
+ * article grid
+ */
 .article-list {
   margin: 0;
   padding: 0;

@@ -26,8 +26,11 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     {
-      resolve: 'gatsby-source-contentful',
-      options: contentfulConfig,
-    }
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `ex0in4a0h3u2`,
+        accessToken: `fbce1246ec17843b5a7aa00a30209653bd39fa61c80bdaef00827d88d023bd8b`,
+      }
+    },
   ],
 }
